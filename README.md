@@ -32,9 +32,11 @@ This project aims to design Agent Scoring System which combines Machine Learning
   * LSTM Modeling design
     * Running **_:/mysite/model/LSTM_.py** to create a class which can achieve RNN based on Tensorflow
   * Hybrid LSTM & TimeSeries
-    * Running **_:/mysite/model/Model_Hybrid.py_** to combine RNN with TimeSeries and get prediction result saved in **_.json_**    
+    * Running **_:/mysite/model/Model_Hybrid.py_** to combine RNN with TimeSeries and get prediction result saved in **_.json_** form   
 * Application to Connect with Model Output:
-  * Running Application:
+  * Import model output to database:
     * $ cd :/mysite
     * $ activate venv
-    * $ python run **_manage.py_** runserver
+    * $ python **_test.py_**
+  * Running application:
+    * $ python **_manage.py_** runserver
