@@ -40,6 +40,6 @@ This project aims to design Agent Scoring System which combines Machine Learning
     * **$ python Model_Hybrid.py** to combine RNN with TimeSeries and get prediction result saved in **_.json_** form   
 * Application to Connect with Model Output:
   * Import model output to database:
-    * **$ python test.py**
+    * **$ python database.py**
   * Running application:
     * **$ python manage.py runserver**
