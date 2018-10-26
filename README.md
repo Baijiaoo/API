@@ -3,15 +3,15 @@ This project aims to design Agent Scoring System which combines Machine Learning
 
 ## Requirment
 * Installing evritual enviroment on your PC to avoid Python libirary version confliction:
-  * $ pip install virtualenv
+  * **$ pip install virtualenv**
 * Setting up vitual enviroment:
-  * $ virtualenv venv
+  * **$ virtualenv venv**
 * Pointing to which version of python you want to use under virtual enviroment:
-  * $ virtualenv -p c:\python3\python.exe venv
+  * **$ virtualenv -p c:\python3\python.exe venv**
 * Activating virtual enviroment:
-  * $ activate venv
+  * **$ activate venv**
 * Deactivating virtual enviroment:
-  * $ deactivate venv
+  * **$ deactivate venv**
 
 ## Enviroment:
 * Python 3.x (skicit-learn, Tensorflow, Django)
@@ -19,24 +19,27 @@ This project aims to design Agent Scoring System which combines Machine Learning
 * Pycharm / JupyterNotebook / Spider
 
 ## Project Process:
+* Setting Enviroment:
+  * **$ cd :/mysite**
+  * **$ activate venv**
 * Prediction Model:
+  * Confirm current location:
+    * **$ cd :/mysite/model**
   * Data Input
-    * Checking whether data existing in current file **_:/mysite/model/data.csv_**
-    * Running **_:/mysite/model/Data_Input.py_** to import data to memory
+    * Checking whether data existing in current file **data.csv_**
+    * **$ python Data_Input.py** to import data to memory
   * Data Cleaning & Wrangling
-    * Running **_:/mysite/model/Data_Processing.py_** to achieve six functions to clean our raw data
+    * **$ python Data_Processing.py** to achieve six functions to clean our raw data
   * Data Merging & Motification
-    * Running **_:/mysite/model/Data_Merging.py_** & **_:/mysite/model/Data_Motification_.py** to prepare data we will input to our model
+    * **$ python Data_Merging.py** & **$ Data_Merging.py** to prepare data we will input to our model
   * PCA (Designing Agent Scoring Criterion)
-    * Running **_:/mysite/model/PCA_.py** to create a class which can achieve agent_scoring_criterion
+    * **$ python PCA.py** to create a class which can achieve agent_scoring_criterion
   * LSTM Modeling design
-    * Running **_:/mysite/model/LSTM_.py** to create a class which can achieve RNN based on Tensorflow
+    * **$ python LSTM.py** to create a class which can achieve RNN based on Tensorflow
   * Hybrid LSTM & TimeSeries
-    * Running **_:/mysite/model/Model_Hybrid.py_** to combine RNN with TimeSeries and get prediction result saved in **_.json_** form   
+    * **$ python Model_Hybrid.py** to combine RNN with TimeSeries and get prediction result saved in **_.json_** form   
 * Application to Connect with Model Output:
   * Import model output to database:
-    * $ cd :/mysite
-    * $ activate venv
-    * $ python **_test.py_**
+    * **$ python test.py**
   * Running application:
-    * $ python **_manage.py_** runserver
+    * **$ python manage.py runserver**
