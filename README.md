@@ -21,20 +21,20 @@ This project aims to design Agent Scoring System which combines Machine Learning
 ## Project Process:
 * Prediction Model:
   * Data Input
-    * Checking whether data existing in current file **_data.csv_**
-    * Running **_Data_Input.py_** to import data to memory
+    * Checking whether data existing in current file **_:/mysite/model/data.csv_**
+    * Running **_:/mysite/model/Data_Input.py_** to import data to memory
   * Data Cleaning & Wrangling
-    * Running **_Data_Processing.py_** to achieve six functions to clean our raw data
+    * Running **_:/mysite/model/Data_Processing.py_** to achieve six functions to clean our raw data
   * Data Merging & Motification
-    * Running **_Data_Merging.py_** & **_Data_Motification_.py** to prepare data we will input to our model
+    * Running **_:/mysite/model/Data_Merging.py_** & **_:/mysite/model/Data_Motification_.py** to prepare data we will input to our model
   * PCA (Designing Agent Scoring Criterion)
-    * Running **_PCA_.py** to create a class which can achieve agent_scoring_criterion
+    * Running **_:/mysite/model/PCA_.py** to create a class which can achieve agent_scoring_criterion
   * LSTM Modeling design
-    * Running **_LSTM_.py** to create a class which can achieve RNN based on Tensorflow
+    * Running **_:/mysite/model/LSTM_.py** to create a class which can achieve RNN based on Tensorflow
   * Hybrid LSTM & TimeSeries
-    * Running **_Model_Hybrid.py_** to combine RNN with TimeSeries and get prediction result saved in **_.json_**    
+    * Running **_:/mysite/model/Model_Hybrid.py_** to combine RNN with TimeSeries and get prediction result saved in **_.json_**    
 * Application to Connect with Model Output:
   * Running Application:
-    * $ cd :/Agent_Scoring
+    * $ cd :/mysite
     * $ activate venv
     * $ python run **_manage.py_** runserver
