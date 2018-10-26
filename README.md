@@ -14,7 +14,7 @@ This project aims to design Agent Scoring System which combines Machine Learning
   * **$ deactivate venv**
 
 ## Enviroment:
-* Python 3.x (skicit-learn, Tensorflow, Django)
+* Python 3.x (skicit-learn, Tensorflow, Django, pyecharts)
 * SQL
 * Pycharm / JupyterNotebook / Spider
 
