@@ -51,7 +51,8 @@ This project aims to design Agent Scoring System which combines Machine Learning
   * **Observe**(raw_score data) & **Evaluate**(model_score data)
   * The **Average_Score** of **Observe** & **Evaluate** to check our model's accuracy
   * Point represents each quarter's score
-  * ![Agent_id==2059](Agent_2059.png)
+   ![Agent_id==2059](Agent_2059.png)
+   
 ## Update
 * 2018/09/01 Started working on this project
 * 2018/09/30 Finished the demo of models (Tensorflow)
