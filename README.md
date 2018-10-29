@@ -57,3 +57,4 @@ This project aims to design Agent Scoring System which combines Machine Learning
 * 2018/09/01 Started working on this project
 * 2018/09/30 Finished the demo of models (Tensorflow)
 * 2018/10/20 Finished the sample demo of the Django framework
+* Present still working the front end design to add the prediction values into one chart
