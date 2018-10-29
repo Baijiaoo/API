@@ -1,5 +1,8 @@
 # Real-Estate-Agent-Scoring-System
 This project aims to design Agent Scoring System which combines Machine Learning & Full Stack Design
+* Using PCA to calculate each feature of agent and do sum of these features to get their history score
+* Ensambling RNN & Time Series models to do prediction about agent future 5 quarter's score
+* Designing App of agent_score to show result data visualization on website
 
 ## Requirment
 * Installing evritual enviroment on your PC to avoid Python libirary version confliction:
