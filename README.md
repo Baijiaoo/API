@@ -42,7 +42,12 @@ This project aims to design Agent Scoring System which combines Machine Learning
   * Hybrid LSTM & TimeSeries
     * **$ python Model_Hybrid.py** to combine RNN with TimeSeries and get prediction result saved in **_.json_** form   
 * Application to Connect with Model Output:
+  * Confirm current working location is under **/mysite**:
+    * **$ cd..**
   * Import model output to database:
+    * **$ python manage.py makemigrations --empty agent_score**
+    * **$ python manage.py.makemigrations**
+    * **$ python manage.py migrate**
     * **$ python database.py**
   * Running application:
     * **$ python manage.py runserver**
@@ -54,7 +59,7 @@ This project aims to design Agent Scoring System which combines Machine Learning
   * **Observe**(raw_score data) & **Evaluate**(model_score data)
   * The **Average_Score** of **Observe** & **Evaluate** to check our model's accuracy
   * Point represents each quarter's score
-* One example of Agent_id == 2059
+* **<font color=red>One example of Agent_id == 2059</font>**
    ![Agent_id==2059](Agent_2059.png)
    
 ## Update
