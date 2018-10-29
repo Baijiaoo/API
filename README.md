@@ -43,3 +43,16 @@ This project aims to design Agent Scoring System which combines Machine Learning
     * **$ python database.py**
   * Running application:
     * **$ python manage.py runserver**
+    
+## Result
+* The result will be showed on your local computer chrome webpage-**http://127.0.0.1:8000/**
+  * The first page is showing all list of agent_id
+* Clicking the agent_id you will see the jump page
+  * **Observe**(raw_score data) & **Evaluate**(model_score data)
+  * The **Average_Score** of **Observe** & **Evaluate** to check our model's accuracy
+  * Point represents each quarter's score
+  
+## Update
+* 2018/09/01 Started working on this project
+* 2018/09/30 Finished the demo of models (Tensorflow)
+* 2018/10/20 Finished the sample demo of the Django framework
