@@ -72,7 +72,7 @@ class data_process_function():
     def _start(self):
         self.data = self.basic_cleaning(self.data)
         self.data['asking_price'] = self.data.apply(lambda row: self.Fix_Price1(row['asking_price'],row['final_price'], row['final_status']), axis=1)
-        self.dara = self.Fix_Price2(self.data)
+        self.data = self.Fix_Price2(self.data)
         self.data['final_price'] = self.data.apply(lambda row: self.Fix_Price3(row['asking_price'],row['final_price'], row['final_status']), axis=1)
         self.data = self.Fix_Price4(self.data)
         self.data = self.data[(self.data.asking_price != 0) | (self.data.final_price != 0)]
