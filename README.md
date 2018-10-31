@@ -34,7 +34,7 @@ This project aims to design Agent Scoring System which combines Machine Learning
   * Data Cleaning & Wrangling
     * **$ python Data_Processing.py** to achieve six functions to clean our raw data
   * Data Merging & Motification
-    * **$ python Data_Merging.py** & **$ Data_Merging.py** to prepare data we will input to our model
+    * **$ python Data_Merging.py** & **$ Data_Motification.py** to prepare data we will input to our model
   * PCA (Designing Agent Scoring Criterion)
     * **$ python PCA.py** to create a class which can achieve agent_scoring_criterion
   * LSTM Modeling design
